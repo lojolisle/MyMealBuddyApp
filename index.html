@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="project.js"></script>
+</head>
+<body>
+    <section>
+        <h1 class="app">My Meal Buddy</h1>
+
+        <h2 class="title">Welcome Lisle!!!</h2>
+        <div class="welcome-container">
+            <p>Let us pick the right meal for you today</p>
+            <p>Get started by clicking the button below</p>
+            <form>
+                <button class="first-button" type="submit">Start</button>
+            </form>
+        </div>
+        <div class="option-container">
+            <p>One more selection please...</p>
+            <div class="flex-container">
+                <button class="item breakfast-button" type="submit">Breakfast</button>
+                <button class="item lunch-button" type="submit">Lunch</button>
+                <button class="item dinner-button" type="submit">Dinner</button>
+            </div>
+        </div>
+        <div class="choice-container">
+            <p>Great... you're almost there!</p>
+            <p class= "selected-menu-msg"></p>
+            
+            <form name="radioForm">
+                <label class="radio-control">
+                    <input type="radio"  id="veg" name="foodChoice" value="vegetarian"
+                     />
+                    Vegetarian Meal
+                </label>
+                <label class="radio-control">
+                    <input type="radio" id="nonveg" name="foodChoice" value="nonvegetarian"
+                  />
+                    Non Vegetarain Meal
+                </label>
+                <label class="radio-control">
+                    <input type="radio" id="combo" name="foodChoice" value="combo"
+                            /> 
+                           Combo
+                </label>
+             
+            </form>
+           
+        </div>
+        <div class="meal-container">
+            <p>Here is your meal for the day</p>
+            <p  class="selected-option-msg"></p>
+            <div class="meal-flex-container">
+                <img src="image/miti-qYreP9QOdrk-unsplash.jpg" alt="">
+              
+                <!-- <div class="recipe">
+                    <h3>Receipe:</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam eius corrupti porro voluptatem autem excepturi commodi? Maxime aliquid excepturi, repellat esse rem consectetur quam soluta, impedit corrupti id beatae?
+                </div> -->
+                <p class="meal-name"></p>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
